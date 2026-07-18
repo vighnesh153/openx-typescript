@@ -1,0 +1,12 @@
+{
+  "fmt": {
+    "include": ["src/"]
+  },
+  "lint": {
+    "include": ["src/"]
+  },
+  "nodeModulesDir": "auto",
+  "workspace": [
+    "./src/material3/foundation"
+  ]
+}

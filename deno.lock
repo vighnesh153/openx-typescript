@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@material/material-color-utilities@0.4": "0.4.0"
+  },
+  "npm": {
+    "@material/material-color-utilities@0.4.0": {
+      "integrity": "sha512-dlq6VExJReb8dhjj3a/yTigr3ncNwoFmL5Iy2ENtbDX03EmNeOEdZ+vsaGrj7RTuO+mB7L58II4LCsl4NpM8uw=="
+    }
+  },
+  "workspace": {
+    "members": {
+      "src/material3/foundation": {
+        "dependencies": [
+          "npm:@material/material-color-utilities@0.4"
+        ]
+      }
+    }
+  }
+}
